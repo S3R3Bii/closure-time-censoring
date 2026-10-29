@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "manuscript_pages": 8,
+  "numeric_table_and_text_checks": 77,
+  "public_file_hashes_checked": 5,
+  "pdfs_checked": 4,
+  "scope": "All12source rows,8primary rows,12summary rows; headline/check-count/qualification/command support; rendered headings and numeric text; approved exact bytes and bounded private-path/token scan",
+  "pdf_security": "No active code, attachments, forms or additional actions; ordinary HTTPS links/navigation only. Rendered readability checked separately."
+}
