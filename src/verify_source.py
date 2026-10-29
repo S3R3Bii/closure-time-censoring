@@ -108,6 +108,10 @@ def main():
         assert json.loads(data)["rowsUpdatedAt"] == m["source_rows_updated_at"]
     cert = {
         "status": "PASS",
+        "public_aggregate_sha256": m["public_aggregate_sha256"],
+        "public_manifest_sha256": hashlib.sha256(
+            (ROOT / "data/source/manifest.json").read_bytes().replace(b"\r\n", b"\n")
+        ).hexdigest(),
         "selected_field_checks": fields,
         "source_rows": m["total_rows"],
         "aggregate_cells_checked": len(actual),

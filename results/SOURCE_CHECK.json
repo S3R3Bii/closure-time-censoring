@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "source_rows": 273641,
+  "aggregate_source_cells": 9982,
+  "eligible_timing_cells": 9901,
+  "panels": 12,
+  "quarantined_rows": 195,
+  "quality_cap": "Atmost0.5percent closure-quality exclusionsperpanel;IDs/creation/cohortfailuresnotallowed",
+  "maturity": "Allcohortlatestcreationdatesatleast28calendar daysbeforecapture",
+  "held_inputs_not_blinded": true,
+  "this_command_computes_no_analysis_metrics": true
+}

@@ -120,7 +120,7 @@ def main():
         "quality_cap": "Atmost0.5percent closure-quality exclusionsperpanel;IDs/creation/cohortfailuresnotallowed",
         "maturity": "Allcohortlatestcreationdatesatleast28calendar daysbeforecapture",
         "held_inputs_not_blinded": True,
-        "no_held_analysis_metrics_computed": True,
+        "this_command_computes_no_analysis_metrics": True,
     }
     save_json(ROOT / "results/SOURCE_CHECK.json", cert)
     print(json.dumps(cert))

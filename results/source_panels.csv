@@ -1,0 +1,13 @@
+agency,month,phase,source_rows,quarantined_rows,eligible_rows,date_present_status_not_closed,closed_status_date_missing
+DOT,4,development,25983,35,25948,51,0
+DEP,4,development,15056,0,15056,13,0
+DSNY,4,evaluation,23651,0,23651,0,0
+DOT,5,development,22169,37,22132,59,0
+DEP,5,development,18398,14,18384,21,0
+DSNY,5,evaluation,23683,0,23683,0,1
+DOT,6,evaluation,22180,66,22114,72,0
+DEP,6,evaluation,18969,11,18958,20,0
+DSNY,6,evaluation,26399,0,26399,0,0
+DOT,7,evaluation,21991,20,21971,94,0
+DEP,7,evaluation,28259,12,28247,62,0
+DSNY,7,evaluation,26903,0,26903,0,0
