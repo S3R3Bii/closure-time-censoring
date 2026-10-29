@@ -1,0 +1,68 @@
+{
+  "timestamp_utc": "2026-10-29T18:58:52.049440+00:00",
+  "deliverable": "Study05 source/analysis/figures at frozen dependency revision 13f67e0a3ce726a3abc74eeefa2b439744f71354 plus current verified evaluation/figure exports",
+  "round": 1,
+  "status": "INCOMPLETE_RELEASE_PENDING",
+  "criteria": {
+    "source_rights_privacy": {
+      "gate": "PASS",
+      "grade": 4,
+      "evidence": "Official NYC terms; five-field minimized projection; 273641 unique requests; 9982 public aggregate cells; all selected fields and aggregate map independently reconciled; raw originals outside Git"
+    },
+    "quality_and_protocol": {
+      "gate": "PASS",
+      "grade": 4,
+      "evidence": "195 closure-before-creation records quarantined under fixed per-panel cap; 273446 eligible; public twenty-dependency freeze before held metrics; inputs not blinded"
+    },
+    "numerical_correctness": {
+      "gate": "PASS",
+      "grade": 4,
+      "evidence": "14 boundary fixtures; all144settings; 11040 exact scalar,3408reported-float,2112independent-decimal checks; isolated97920field/document replay"
+    },
+    "figure_values_and_readability": {
+      "gate": "PASS",
+      "grade": 4,
+      "evidence": "368 plotted values independently checked; allthreeactualPNGoutputs visually inspected at full image scale; labeled units/bounds and complete sensitivity grid"
+    },
+    "manuscript": {
+      "gate": "UNKNOWN",
+      "grade": null,
+      "evidence": "Not yet produced"
+    },
+    "remote_release": {
+      "gate": "UNKNOWN",
+      "grade": null,
+      "evidence": "DraftPR2; no candidate/main CI or release proof yet"
+    }
+  },
+  "version_hashes": {
+    "results/EVALUATION_INDEPENDENT_CHECK.json": "562a941781f1ea1f26c0be6ebfb7877590bc3bae063399978991e3ffec5f5916",
+    "results/REPRODUCTION.json": "92c49a3d11dde2360ce3a5192c4e5974be1f6705733100c2e9be73c5372c0130",
+    "results/FIGURE_CHECK.json": "42327e71447852b0055703544cf9e121912734ee411f3e77b5c15091eeec926b"
+  },
+  "material_limitations": [
+    "Synthetic cutoff imposed on later captured records, not historical information vintages",
+    "Recorded closure is not verified resolution/first closure/reopening history",
+    "Independent-censoring and stable closure-distribution assumptions unverified",
+    "Finite selected panels; no general predictive, causal, operational or novelty claim"
+  ],
+  "changes": "Source capture/reconciliation, frozen finite-cohort evaluation, complete sensitivities, independent SQL/integer/decimal replay and original figures",
+  "budget": {
+    "maximum_rounds": 3,
+    "maximum_active_review_minutes": 45,
+    "maximum_review_tool_calls": 60,
+    "rounds_used": 1,
+    "workload_proxy": "Review-only timing/call split was not instrumented. This continuation began18:51:59UTC; elapsed wall time includes source capture, coding and execution and is not account usage or billing."
+  },
+  "usage_observation": {
+    "observed_utc": "2026-10-29 18:58:09 UTC",
+    "source": "Codex get_usage_limits",
+    "window_minutes": 10080,
+    "used_percent": 86,
+    "remaining_percent": 14,
+    "resets_at_unix": 1793782197,
+    "ordinary_usage_allowed": true,
+    "secondary": "unavailable"
+  },
+  "stop_reason": "Source/analysis/figure review round complete; manuscript and remote release gates remain"
+}

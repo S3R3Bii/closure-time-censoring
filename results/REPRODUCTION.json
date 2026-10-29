@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "exact_csv_fields_or_json_documents": 97920,
+  "frozen_dependencies": 20,
+  "scope": "Isolated source aggregation, all 144 settings, all survival steps and independent SQL/integer/decimal reconstruction; no network or private originals required",
+  "source_original_limit": "Private-original reconciliation is a retained hash-bound certificate; public replay cannot independently access unpublished request identifiers/timestamps"
+}
