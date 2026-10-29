@@ -1,0 +1,878 @@
+{
+  "source": "NYC311erm2-nwe9",
+  "source_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json",
+  "source_rows_updated_at": 1793237699,
+  "capture_date": "2026-10-29",
+  "fields_requested": [
+    "unique_key",
+    "created_date",
+    "closed_date",
+    "agency",
+    "status"
+  ],
+  "total_rows": 273641,
+  "aggregate_cells": 9982,
+  "metadata_before_sha256": "ff777ad0132fa0858dd0bc93590ec4286b0948adea915fc99a75a6cab737b095",
+  "metadata_after_sha256": "ff777ad0132fa0858dd0bc93590ec4286b0948adea915fc99a75a6cab737b095",
+  "pages": [
+    {
+      "month": 4,
+      "agency": "DOT",
+      "offset": 0,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=0",
+      "original_file": "04-DOT-00000.json",
+      "bytes": 695658,
+      "sha256": "601479f7841cb7191ca6e033b888ff6acf5c34bfd328668ca522edd7b015a3a7",
+      "captured_utc": "2026-10-29T18:53:42.178020+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DOT",
+      "offset": 5000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=5000",
+      "original_file": "04-DOT-05000.json",
+      "bytes": 696311,
+      "sha256": "72146559d2afb62804bcd6d95f6698f0ceb3b9d38009073a070d71981c6fe836",
+      "captured_utc": "2026-10-29T18:53:44.359455+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DOT",
+      "offset": 10000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=10000",
+      "original_file": "04-DOT-10000.json",
+      "bytes": 693881,
+      "sha256": "ef5dd6547b44c3ff1f29cc52f00a1a31e8b152f0b6e742ed274ef44d7e363e04",
+      "captured_utc": "2026-10-29T18:53:48.495659+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DOT",
+      "offset": 15000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=15000",
+      "original_file": "04-DOT-15000.json",
+      "bytes": 693179,
+      "sha256": "73a0f9bad1b660030d1d984cd4bdcda2929bfa4bb4753ad226f2a27fcac69d8d",
+      "captured_utc": "2026-10-29T18:53:50.492871+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DOT",
+      "offset": 20000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=20000",
+      "original_file": "04-DOT-20000.json",
+      "bytes": 691419,
+      "sha256": "af84807fa228c0196c2486ddc93be6e09b5ff87b91176b50be577c85697c217f",
+      "captured_utc": "2026-10-29T18:53:52.231736+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DOT",
+      "offset": 25000,
+      "rows": 983,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=25000",
+      "original_file": "04-DOT-25000.json",
+      "bytes": 135527,
+      "sha256": "e74e45295a4763b9cf5ccbb8b6bf34fe9df175a0285a47aca5d34e081b9d067c",
+      "captured_utc": "2026-10-29T18:53:53.426860+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DEP",
+      "offset": 0,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=0",
+      "original_file": "04-DEP-00000.json",
+      "bytes": 702359,
+      "sha256": "352c166215ee9702ce3b90ff79bc27becb0ce28db04f8a2443f7c26ccc4c9c04",
+      "captured_utc": "2026-10-29T18:53:57.188061+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DEP",
+      "offset": 5000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=5000",
+      "original_file": "04-DEP-05000.json",
+      "bytes": 702021,
+      "sha256": "6712fecdcb08c4f08afbea70b00d9868a7cfafe41c2fa61cf1ecbc7a6fc37644",
+      "captured_utc": "2026-10-29T18:53:58.512380+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DEP",
+      "offset": 10000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=10000",
+      "original_file": "04-DEP-10000.json",
+      "bytes": 702376,
+      "sha256": "3a8aed57c1768dfd0d50424f5b945cc63947c866a1ae59c17953c57c02fd0bb0",
+      "captured_utc": "2026-10-29T18:54:00.231098+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DEP",
+      "offset": 15000,
+      "rows": 56,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=15000",
+      "original_file": "04-DEP-15000.json",
+      "bytes": 7897,
+      "sha256": "d8e04f9547e8dcf1bfbb056012f639a49f8b572097e2b2a3954f804da9e512d8",
+      "captured_utc": "2026-10-29T18:54:01.381748+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DSNY",
+      "offset": 0,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=0",
+      "original_file": "04-DSNY-00000.json",
+      "bytes": 707131,
+      "sha256": "c63a6a6ee9eb8eefab64b5428b8b35472e312ad65a9c9ff74da022479df1350b",
+      "captured_utc": "2026-10-29T18:54:04.477364+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DSNY",
+      "offset": 5000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=5000",
+      "original_file": "04-DSNY-05000.json",
+      "bytes": 707747,
+      "sha256": "fff9067420b93109ad997dc3435a24ef791a74ed6303a8b2f6f7cc0b6ac25b64",
+      "captured_utc": "2026-10-29T18:54:07.763276+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DSNY",
+      "offset": 10000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=10000",
+      "original_file": "04-DSNY-10000.json",
+      "bytes": 707740,
+      "sha256": "34018fc227c782f17360beefa586f358fcb6e2e5919f15b38df419197b1675b0",
+      "captured_utc": "2026-10-29T18:54:09.547012+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DSNY",
+      "offset": 15000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=15000",
+      "original_file": "04-DSNY-15000.json",
+      "bytes": 708118,
+      "sha256": "b4b150f53a2c46e76b17f3ee9b9bd2f0d7f7658bef1218a9710c763f75a0c4f1",
+      "captured_utc": "2026-10-29T18:54:11.466752+00:00"
+    },
+    {
+      "month": 4,
+      "agency": "DSNY",
+      "offset": 20000,
+      "rows": 3651,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=20000",
+      "original_file": "04-DSNY-20000.json",
+      "bytes": 516637,
+      "sha256": "0bd7852b7af2188109f51e4fa1d96edb265f40aed616e84085f733a77a143e4f",
+      "captured_utc": "2026-10-29T18:54:13.291188+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DOT",
+      "offset": 0,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=0",
+      "original_file": "05-DOT-00000.json",
+      "bytes": 691432,
+      "sha256": "bc86ffa5b208f82bf4eeae4235c340b46e91caa479141d1ad43eb96fea5266e4",
+      "captured_utc": "2026-10-29T18:54:15.699062+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DOT",
+      "offset": 5000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=5000",
+      "original_file": "05-DOT-05000.json",
+      "bytes": 696728,
+      "sha256": "1a93ae9ec74d322269d266849898e650c34eac193268b43f177541648683763c",
+      "captured_utc": "2026-10-29T18:54:18.801681+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DOT",
+      "offset": 10000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=10000",
+      "original_file": "05-DOT-10000.json",
+      "bytes": 699380,
+      "sha256": "a3dc35a4700983abd7ca32b4c32079deafe332289f33572981c9f9afe00fc1eb",
+      "captured_utc": "2026-10-29T18:54:20.438591+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DOT",
+      "offset": 15000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=15000",
+      "original_file": "05-DOT-15000.json",
+      "bytes": 698238,
+      "sha256": "5a5fd01e53fb7974db0c96406bff9742af3cdced7526ed59792c52101dedbe10",
+      "captured_utc": "2026-10-29T18:54:22.128299+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DOT",
+      "offset": 20000,
+      "rows": 2169,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=20000",
+      "original_file": "05-DOT-20000.json",
+      "bytes": 302200,
+      "sha256": "8e68c6eed0901940c9657ab174b71c2e2218ef32e064fdad0473cc0c7455c9d3",
+      "captured_utc": "2026-10-29T18:54:23.658685+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DEP",
+      "offset": 0,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=0",
+      "original_file": "05-DEP-00000.json",
+      "bytes": 701912,
+      "sha256": "463d3e95538bb534c8998f54355235912ad02c7b9ebeccae705d53013560fdbc",
+      "captured_utc": "2026-10-29T18:54:26.987706+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DEP",
+      "offset": 5000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=5000",
+      "original_file": "05-DEP-05000.json",
+      "bytes": 701214,
+      "sha256": "06b8ce9af50217e8307465fc10036e8c3f41a5b6c23705bd7c36b12ac949f163",
+      "captured_utc": "2026-10-29T18:54:29.512585+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DEP",
+      "offset": 10000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=10000",
+      "original_file": "05-DEP-10000.json",
+      "bytes": 702566,
+      "sha256": "6b7213545c7ab11209b7c6259cc28e8c90ac135be45f73e0b0f066c7d150b0b0",
+      "captured_utc": "2026-10-29T18:54:31.510272+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DEP",
+      "offset": 15000,
+      "rows": 3398,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=15000",
+      "original_file": "05-DEP-15000.json",
+      "bytes": 476799,
+      "sha256": "65745e29ce23fda5b39b8bf843ebacaa5169f8c3a9219821f31bfe485a6216ca",
+      "captured_utc": "2026-10-29T18:54:32.909286+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DSNY",
+      "offset": 0,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=0",
+      "original_file": "05-DSNY-00000.json",
+      "bytes": 707637,
+      "sha256": "6ddcf2b457f6adfa5f770a58562095fc928c58ec10225819e9f2b1b651f698c5",
+      "captured_utc": "2026-10-29T18:54:36.398263+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DSNY",
+      "offset": 5000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=5000",
+      "original_file": "05-DSNY-05000.json",
+      "bytes": 707173,
+      "sha256": "e9960233b25be61290c8d20f0d70689d0a2ceff91fd7fcf99376026992af9915",
+      "captured_utc": "2026-10-29T18:54:38.685050+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DSNY",
+      "offset": 10000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=10000",
+      "original_file": "05-DSNY-10000.json",
+      "bytes": 707460,
+      "sha256": "89b9fade93d91dc9612094000d9963d92824e06973f100dd21f4a9b29c13f66b",
+      "captured_utc": "2026-10-29T18:54:41.193913+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DSNY",
+      "offset": 15000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=15000",
+      "original_file": "05-DSNY-15000.json",
+      "bytes": 707026,
+      "sha256": "de75df6b438dbb69a426ef00ee6bf01a2595c798821b094a0efc73301948a380",
+      "captured_utc": "2026-10-29T18:54:44.261960+00:00"
+    },
+    {
+      "month": 5,
+      "agency": "DSNY",
+      "offset": 20000,
+      "rows": 3683,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=20000",
+      "original_file": "05-DSNY-20000.json",
+      "bytes": 520502,
+      "sha256": "f025d07de164837068e472460ecc1e595efdc1ddf05dab347dd39639b17a8f82",
+      "captured_utc": "2026-10-29T18:54:46.502150+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DOT",
+      "offset": 0,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=0",
+      "original_file": "06-DOT-00000.json",
+      "bytes": 698557,
+      "sha256": "faaae85a7e887ca9cfb4760c71d1058806339b499ab9f9b76772a814f2a11209",
+      "captured_utc": "2026-10-29T18:54:48.985615+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DOT",
+      "offset": 5000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=5000",
+      "original_file": "06-DOT-05000.json",
+      "bytes": 697451,
+      "sha256": "f2209ce9939023dd6ba462c81f5fb6cbe32951d9fd5cf1494e2b2af716e53e38",
+      "captured_utc": "2026-10-29T18:54:50.451620+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DOT",
+      "offset": 10000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=10000",
+      "original_file": "06-DOT-10000.json",
+      "bytes": 696206,
+      "sha256": "ff16135683e40825e7335bd881e43bd15163f43d208e1f0d70dcbda448389336",
+      "captured_utc": "2026-10-29T18:54:53.271056+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DOT",
+      "offset": 15000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=15000",
+      "original_file": "06-DOT-15000.json",
+      "bytes": 696274,
+      "sha256": "4058046bd53f1517c9ff90d8dd327b72520158691d7f6c4aecc614e8e9b882dc",
+      "captured_utc": "2026-10-29T18:54:55.394300+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DOT",
+      "offset": 20000,
+      "rows": 2180,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=20000",
+      "original_file": "06-DOT-20000.json",
+      "bytes": 303718,
+      "sha256": "266d4e0f7a1a98e24825388a3f16ced1434d88153b3a14ee872ab70a979f4086",
+      "captured_utc": "2026-10-29T18:54:56.868864+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DEP",
+      "offset": 0,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=0",
+      "original_file": "06-DEP-00000.json",
+      "bytes": 701143,
+      "sha256": "293b93332f44b61a2492fe8df9596cb8eee32493a444edb65abe3579e565eace",
+      "captured_utc": "2026-10-29T18:54:59.690028+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DEP",
+      "offset": 5000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=5000",
+      "original_file": "06-DEP-05000.json",
+      "bytes": 702462,
+      "sha256": "f74c955bbf774b9bc457211d8988434c8999d295a970dacde981bb4fa56ff2cf",
+      "captured_utc": "2026-10-29T18:55:02.048143+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DEP",
+      "offset": 10000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=10000",
+      "original_file": "06-DEP-10000.json",
+      "bytes": 702231,
+      "sha256": "ea5e3de171feece445a76e79f0c93d6b593517d56e18f0b378bd37670eaed033",
+      "captured_utc": "2026-10-29T18:55:04.497147+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DEP",
+      "offset": 15000,
+      "rows": 3969,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=15000",
+      "original_file": "06-DEP-15000.json",
+      "bytes": 556583,
+      "sha256": "d58fad2446b2ba88b6ef550a3c9f1ddab51aaeff68570e9d5e9fa32540359924",
+      "captured_utc": "2026-10-29T18:55:06.291940+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DSNY",
+      "offset": 0,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=0",
+      "original_file": "06-DSNY-00000.json",
+      "bytes": 706774,
+      "sha256": "135ec9a6724d785ee67431c936e6fc936e2866407b7d991415a02aa5b19f6895",
+      "captured_utc": "2026-10-29T18:55:10.338604+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DSNY",
+      "offset": 5000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=5000",
+      "original_file": "06-DSNY-05000.json",
+      "bytes": 706823,
+      "sha256": "3f4864fef81e0092cfd075939e3b4c9253878cbcf8fa043a1887bf94f8954dbc",
+      "captured_utc": "2026-10-29T18:55:13.856062+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DSNY",
+      "offset": 10000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=10000",
+      "original_file": "06-DSNY-10000.json",
+      "bytes": 706858,
+      "sha256": "52ed5c5b113d7f038dc939fa431eb9468b8b2f13877924390fd07cdb64a0dadc",
+      "captured_utc": "2026-10-29T18:55:15.880242+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DSNY",
+      "offset": 15000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=15000",
+      "original_file": "06-DSNY-15000.json",
+      "bytes": 707075,
+      "sha256": "4b6f0fc59ffca0064e1cddc72d2b8d92d2db55bad98e327af40bdf6890d4c3b1",
+      "captured_utc": "2026-10-29T18:55:18.095083+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DSNY",
+      "offset": 20000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=20000",
+      "original_file": "06-DSNY-20000.json",
+      "bytes": 706942,
+      "sha256": "c7e16dc57b524f54165d5b4e1550cc629018c281fd13c3984f74ab26d55db825",
+      "captured_utc": "2026-10-29T18:55:20.048930+00:00"
+    },
+    {
+      "month": 6,
+      "agency": "DSNY",
+      "offset": 25000,
+      "rows": 1399,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=25000",
+      "original_file": "06-DSNY-25000.json",
+      "bytes": 198092,
+      "sha256": "bbe215a2003df4b050ec91a37dea21753e34dffdc5b5c88ba969301f42fcf4bb",
+      "captured_utc": "2026-10-29T18:55:21.411355+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DOT",
+      "offset": 0,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=0",
+      "original_file": "07-DOT-00000.json",
+      "bytes": 692814,
+      "sha256": "e9ca9f47e1a860a171b331841316a44bd38dde2e768506f5b059bd8b47a6b9de",
+      "captured_utc": "2026-10-29T18:55:23.686357+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DOT",
+      "offset": 5000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=5000",
+      "original_file": "07-DOT-05000.json",
+      "bytes": 685316,
+      "sha256": "159b6e8990e5415b4c5f48e7e68a04d0eca222704a0637282b0b8df9ff40044c",
+      "captured_utc": "2026-10-29T18:55:25.555423+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DOT",
+      "offset": 10000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=10000",
+      "original_file": "07-DOT-10000.json",
+      "bytes": 687774,
+      "sha256": "43102872ef85da73160ea367f1d566cadb6e446f0aadfa37ddee5e6d68f90078",
+      "captured_utc": "2026-10-29T18:55:27.538752+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DOT",
+      "offset": 15000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=15000",
+      "original_file": "07-DOT-15000.json",
+      "bytes": 687886,
+      "sha256": "f571982be62146f3afda86143a4dc01ffd8ac0e4e3d03b2b6e54406433a5034e",
+      "captured_utc": "2026-10-29T18:55:29.605488+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DOT",
+      "offset": 20000,
+      "rows": 1991,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27&%24order=unique_key+ASC&%24limit=5000&%24offset=20000",
+      "original_file": "07-DOT-20000.json",
+      "bytes": 273626,
+      "sha256": "b38fbae64d4b1fa965057f2f854a602964913b2a7a6076ea41da1bc1c3326877",
+      "captured_utc": "2026-10-29T18:55:31.334825+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DEP",
+      "offset": 0,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=0",
+      "original_file": "07-DEP-00000.json",
+      "bytes": 704325,
+      "sha256": "0aeccf7c7ee488c10ae0e988f4bb9dbbd481bd37680945c109ed362deb0cc1c7",
+      "captured_utc": "2026-10-29T18:55:33.918384+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DEP",
+      "offset": 5000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=5000",
+      "original_file": "07-DEP-05000.json",
+      "bytes": 704490,
+      "sha256": "67883495b8e6c321b4cf9bee33640d7986f7d22c12c405acef77f41033def0c5",
+      "captured_utc": "2026-10-29T18:55:35.954241+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DEP",
+      "offset": 10000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=10000",
+      "original_file": "07-DEP-10000.json",
+      "bytes": 701471,
+      "sha256": "1f48ed1704d49fd1b2983c391bafb938063f5019e4d7237c96acf7c0dfa91b16",
+      "captured_utc": "2026-10-29T18:55:37.833588+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DEP",
+      "offset": 15000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=15000",
+      "original_file": "07-DEP-15000.json",
+      "bytes": 702211,
+      "sha256": "5bf795e84a26fb369476c3715d10ae817139bda2c54d46704280e42f21a62da1",
+      "captured_utc": "2026-10-29T18:55:39.569681+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DEP",
+      "offset": 20000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=20000",
+      "original_file": "07-DEP-20000.json",
+      "bytes": 702422,
+      "sha256": "73e59d4c07e4aaa67753aebc44d291ee125c52f4fd65371e188f3bdf9ef29bde",
+      "captured_utc": "2026-10-29T18:55:41.078858+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DEP",
+      "offset": 25000,
+      "rows": 3259,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27&%24order=unique_key+ASC&%24limit=5000&%24offset=25000",
+      "original_file": "07-DEP-25000.json",
+      "bytes": 457390,
+      "sha256": "a2199fecaf6b2f2739251cd71deb9db42fdd49158f6801b74964b3b2145b3520",
+      "captured_utc": "2026-10-29T18:55:43.479391+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DSNY",
+      "offset": 0,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=0",
+      "original_file": "07-DSNY-00000.json",
+      "bytes": 706907,
+      "sha256": "dc382254e4fb4617712ebfa129f16c92910bedd71ee85a6da72397873dd81bd7",
+      "captured_utc": "2026-10-29T18:55:47.408831+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DSNY",
+      "offset": 5000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=5000",
+      "original_file": "07-DSNY-05000.json",
+      "bytes": 707033,
+      "sha256": "82a15fa8c1c90d5ae47fbdcc80b8f7c9bf8e7a3d782f8017ff551361c4c7eb3b",
+      "captured_utc": "2026-10-29T18:55:48.882849+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DSNY",
+      "offset": 10000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=10000",
+      "original_file": "07-DSNY-10000.json",
+      "bytes": 705759,
+      "sha256": "7c0524a8c097dbdbb47010c1d26784825515e1043bf605f647c22d8c3c79ad5d",
+      "captured_utc": "2026-10-29T18:55:50.773255+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DSNY",
+      "offset": 15000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=15000",
+      "original_file": "07-DSNY-15000.json",
+      "bytes": 706522,
+      "sha256": "9b253b71d479a239ae36092d2dcab0cea0fc03e8c55f1095c74568b009666fd4",
+      "captured_utc": "2026-10-29T18:55:53.146771+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DSNY",
+      "offset": 20000,
+      "rows": 5000,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=20000",
+      "original_file": "07-DSNY-20000.json",
+      "bytes": 705878,
+      "sha256": "e2b572a83666da8be8e8d8a9979560a326afdce49803f54bc869c00874974643",
+      "captured_utc": "2026-10-29T18:55:55.975673+00:00"
+    },
+    {
+      "month": 7,
+      "agency": "DSNY",
+      "offset": 25000,
+      "rows": 1903,
+      "url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=unique_key%2Ccreated_date%2Cclosed_date%2Cagency%2Cstatus&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27&%24order=unique_key+ASC&%24limit=5000&%24offset=25000",
+      "original_file": "07-DSNY-25000.json",
+      "bytes": 268729,
+      "sha256": "a11fbdcc98ca712bc1a618028616dcb9008bef5b27e2603e379ec37781035e5b",
+      "captured_utc": "2026-10-29T18:55:57.540552+00:00"
+    }
+  ],
+  "panels": [
+    {
+      "month": 4,
+      "agency": "DOT",
+      "expected_rows": 25983,
+      "count_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+n&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27",
+      "count_original": "count-04-DOT-before.json",
+      "count_sha256": "6003d02746bacebe577531fa817e34379c50b85831e8c3cb3082bd296bf06623"
+    },
+    {
+      "month": 4,
+      "agency": "DEP",
+      "expected_rows": 15056,
+      "count_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+n&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27",
+      "count_original": "count-04-DEP-before.json",
+      "count_sha256": "e45b70f491cf4b83ae5ae7c4ad675f6e1b2733c51cfacbd7b751702c75a00d60"
+    },
+    {
+      "month": 4,
+      "agency": "DSNY",
+      "expected_rows": 23651,
+      "count_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+n&%24where=created_date+%3E%3D+%272026-04-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-04-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27",
+      "count_original": "count-04-DSNY-before.json",
+      "count_sha256": "d4958579edaf17e200f40172788077e9c0292e682dc1a6b981f0878394594d25"
+    },
+    {
+      "month": 5,
+      "agency": "DOT",
+      "expected_rows": 22169,
+      "count_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+n&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27",
+      "count_original": "count-05-DOT-before.json",
+      "count_sha256": "cccd734b38f7c0d59df608f206b69990253df637a0ede0e25b96104c09acb0c4"
+    },
+    {
+      "month": 5,
+      "agency": "DEP",
+      "expected_rows": 18398,
+      "count_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+n&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27",
+      "count_original": "count-05-DEP-before.json",
+      "count_sha256": "0584740c146c23c2c951e4ff20874bc5cf97d6794b354fd02fa965312d7912a2"
+    },
+    {
+      "month": 5,
+      "agency": "DSNY",
+      "expected_rows": 23683,
+      "count_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+n&%24where=created_date+%3E%3D+%272026-05-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-05-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27",
+      "count_original": "count-05-DSNY-before.json",
+      "count_sha256": "30040a9f9e11efb345417b9bfab39cf3b15c9efa583791ffae664945d04f3711"
+    },
+    {
+      "month": 6,
+      "agency": "DOT",
+      "expected_rows": 22180,
+      "count_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+n&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27",
+      "count_original": "count-06-DOT-before.json",
+      "count_sha256": "6326ae31b5393440cdcc1560a04ebb4d351c150504c344332fe333a0126f11b5"
+    },
+    {
+      "month": 6,
+      "agency": "DEP",
+      "expected_rows": 18969,
+      "count_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+n&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27",
+      "count_original": "count-06-DEP-before.json",
+      "count_sha256": "a90a66b5e23dbec352d86c6b066a272b2cac566a3db015341e039bcbb1905121"
+    },
+    {
+      "month": 6,
+      "agency": "DSNY",
+      "expected_rows": 26399,
+      "count_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+n&%24where=created_date+%3E%3D+%272026-06-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-06-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27",
+      "count_original": "count-06-DSNY-before.json",
+      "count_sha256": "5be0372b6f41ba476d4ee6e03dd25f7c2e0e49d9a4cca2477e8c3c1326f4fb62"
+    },
+    {
+      "month": 7,
+      "agency": "DOT",
+      "expected_rows": 21991,
+      "count_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+n&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DOT%27",
+      "count_original": "count-07-DOT-before.json",
+      "count_sha256": "099a317d2a024e8e15a3c770a362216a5c99372a3baf40e2f31eb1fb571cfa44"
+    },
+    {
+      "month": 7,
+      "agency": "DEP",
+      "expected_rows": 28259,
+      "count_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+n&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DEP%27",
+      "count_original": "count-07-DEP-before.json",
+      "count_sha256": "68ef36dec9244f90efd49f0d54493c09fbf1f6c58a1f5f1dfec1ecca90278e81"
+    },
+    {
+      "month": 7,
+      "agency": "DSNY",
+      "expected_rows": 26903,
+      "count_url": "https://data.cityofnewyork.us/resource/erm2-nwe9.json?%24select=count%28%2A%29+as+n&%24where=created_date+%3E%3D+%272026-07-01T00%3A00%3A00%27+AND+created_date+%3C+%272026-07-29T00%3A00%3A00%27+AND+agency%3D%27DSNY%27",
+      "count_original": "count-07-DSNY-before.json",
+      "count_sha256": "5f00ae52efa0847db6744a77a417d593255209f7cc55081799fcb887419824e3"
+    }
+  ],
+  "final_counts": [
+    {
+      "month": 4,
+      "agency": "DOT",
+      "original_file": "count-04-DOT-after.json",
+      "sha256": "6003d02746bacebe577531fa817e34379c50b85831e8c3cb3082bd296bf06623",
+      "rows": 25983
+    },
+    {
+      "month": 4,
+      "agency": "DEP",
+      "original_file": "count-04-DEP-after.json",
+      "sha256": "e45b70f491cf4b83ae5ae7c4ad675f6e1b2733c51cfacbd7b751702c75a00d60",
+      "rows": 15056
+    },
+    {
+      "month": 4,
+      "agency": "DSNY",
+      "original_file": "count-04-DSNY-after.json",
+      "sha256": "d4958579edaf17e200f40172788077e9c0292e682dc1a6b981f0878394594d25",
+      "rows": 23651
+    },
+    {
+      "month": 5,
+      "agency": "DOT",
+      "original_file": "count-05-DOT-after.json",
+      "sha256": "cccd734b38f7c0d59df608f206b69990253df637a0ede0e25b96104c09acb0c4",
+      "rows": 22169
+    },
+    {
+      "month": 5,
+      "agency": "DEP",
+      "original_file": "count-05-DEP-after.json",
+      "sha256": "0584740c146c23c2c951e4ff20874bc5cf97d6794b354fd02fa965312d7912a2",
+      "rows": 18398
+    },
+    {
+      "month": 5,
+      "agency": "DSNY",
+      "original_file": "count-05-DSNY-after.json",
+      "sha256": "30040a9f9e11efb345417b9bfab39cf3b15c9efa583791ffae664945d04f3711",
+      "rows": 23683
+    },
+    {
+      "month": 6,
+      "agency": "DOT",
+      "original_file": "count-06-DOT-after.json",
+      "sha256": "6326ae31b5393440cdcc1560a04ebb4d351c150504c344332fe333a0126f11b5",
+      "rows": 22180
+    },
+    {
+      "month": 6,
+      "agency": "DEP",
+      "original_file": "count-06-DEP-after.json",
+      "sha256": "a90a66b5e23dbec352d86c6b066a272b2cac566a3db015341e039bcbb1905121",
+      "rows": 18969
+    },
+    {
+      "month": 6,
+      "agency": "DSNY",
+      "original_file": "count-06-DSNY-after.json",
+      "sha256": "5be0372b6f41ba476d4ee6e03dd25f7c2e0e49d9a4cca2477e8c3c1326f4fb62",
+      "rows": 26399
+    },
+    {
+      "month": 7,
+      "agency": "DOT",
+      "original_file": "count-07-DOT-after.json",
+      "sha256": "099a317d2a024e8e15a3c770a362216a5c99372a3baf40e2f31eb1fb571cfa44",
+      "rows": 21991
+    },
+    {
+      "month": 7,
+      "agency": "DEP",
+      "original_file": "count-07-DEP-after.json",
+      "sha256": "68ef36dec9244f90efd49f0d54493c09fbf1f6c58a1f5f1dfec1ecca90278e81",
+      "rows": 28259
+    },
+    {
+      "month": 7,
+      "agency": "DSNY",
+      "original_file": "count-07-DSNY-after.json",
+      "sha256": "5f00ae52efa0847db6744a77a417d593255209f7cc55081799fcb887419824e3",
+      "rows": 26903
+    }
+  ],
+  "public_aggregate_file": "data/source/aggregate_cells.csv.gz",
+  "public_aggregate_sha256": "a9d96b17b54deac8d0bfb9683543a7a4568a3dc27e7a9a241fe1dc9e7fffff3c",
+  "privacy": "NoID,exacttimestamp,location,problem,descriptionorrawstatus published;0\u201345daycells exact andlaterdates pooledgt45",
+  "version_limit": "Stablemetadata/counts areboundedcaptureevidence,nottransactionalorhistoricalvintageproof"
+}

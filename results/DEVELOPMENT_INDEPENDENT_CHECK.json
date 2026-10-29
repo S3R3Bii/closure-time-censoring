@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "phase": "development",
+  "settings": 48,
+  "curve_steps": 736,
+  "exact_scalar_checks": 3712,
+  "reported_float_checks": 1144,
+  "independent_decimal_checks": 704,
+  "decimal_precision": 90,
+  "decimal_tolerance": "1e-70",
+  "reported_float_tolerance": "1e-12",
+  "methods": "SQLite observation/risk/event/censor/benchmark sums; integer products reduced by gcd; separate high-precision decimal survival integration; complete setting/summary comparison",
+  "limits": "Arithmetic verification of the declared captured-record reconstruction; independent-censoring assumptions and true resolution are not verified"
+}

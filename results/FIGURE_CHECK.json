@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "plotted_values": 368,
+  "figure_hashes": {
+    "figures/primary_comparison.pdf": "55bb5d2808fd470c4fac2a76b6b68168464c5a5c5ecf5fae4ecf1e2102fbf3ed",
+    "figures/primary_comparison.svg": "bbba5d2c9767060aa7d731c5a0b42a898dbe589feb9a5b73d3e408a420d3d9ad",
+    "figures/primary_comparison.png": "e85e0c9daef0437ba6688000ad778d88dc74d4497b61f86a2ec78abfa69f38d2",
+    "figures/survival_overview.pdf": "661c64fd9275aca53fc284862134c55a731c0a6df9c18e1559e153d5c6158e16",
+    "figures/survival_overview.svg": "89eb1a7da33ff516c9b244f0ffcc757f3fc85b268c04e74413c98923d686d62e",
+    "figures/survival_overview.png": "8b05ca6d514db70dc62bbb95829e989dd7f4f8159126be04359c94c886ae8c53",
+    "figures/error_sensitivity.pdf": "f59f46000b3a2a1465cf43569befa27df536244ed294b294ccadb2796aee50f5",
+    "figures/error_sensitivity.svg": "52127107b7e1212cf47a517d433156fa3d95bafbb5631510a173875b339ea2f5",
+    "figures/error_sensitivity.png": "bcdfe28eb02fc4dcde2cdb8001f45ca5b0538a399ad4f6646615902ddbc38188"
+  },
+  "scope": "All primary bounds/three point series, all 232 survival ordinates and all 96 held error differences checked on plotted artists against independently verified output tables; rendered readability checked separately"
+}

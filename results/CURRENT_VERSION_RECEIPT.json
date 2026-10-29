@@ -1,0 +1,93 @@
+{
+  "timestamp_utc": "2026-10-29T19:03:50.251296+00:00",
+  "status": "LOCAL_ACCEPTANCE_PASS_REMOTE_RELEASE_PENDING",
+  "grade": 4,
+  "rounds_completed": 3,
+  "deliverable": "Current scoped independent study05 source, complete finite-panel results, three original figures and eight-page manuscript",
+  "version_hashes": {
+    "paper/main.tex": "1e31f363588c641b2df4ce96994cee5484272e615d046c313e9efe9997e68915",
+    "paper/manuscript.pdf": "1e2a33c6133a9ba53c946cb9d5be4004236adc03e824b502bb0cdac5d40eda10",
+    "paper/images/primary_comparison.pdf": "55bb5d2808fd470c4fac2a76b6b68168464c5a5c5ecf5fae4ecf1e2102fbf3ed",
+    "paper/images/survival_overview.pdf": "661c64fd9275aca53fc284862134c55a731c0a6df9c18e1559e153d5c6158e16",
+    "paper/images/error_sensitivity.pdf": "f59f46000b3a2a1465cf43569befa27df536244ed294b294ccadb2796aee50f5",
+    "results/SOURCE_CHECK.json": "d1f5eb4d6b89f84c1bcea9307dca9ae61bec9088d98bab4353138b0e5e85f18c",
+    "results/INDEPENDENT_SOURCE_CHECK.json": "9ea806fe0eabcd881a521c2d1460740999e3fa68188765aba96a3431cf170aa5",
+    "results/DEVELOPMENT_INDEPENDENT_CHECK.json": "697eccd1ca1d3e7cd9fa114aafd341f4a4d8accdee399ada5a91b20dc8b9adff",
+    "results/EVALUATION_INDEPENDENT_CHECK.json": "562a941781f1ea1f26c0be6ebfb7877590bc3bae063399978991e3ffec5f5916",
+    "results/REPRODUCTION.json": "92c49a3d11dde2360ce3a5192c4e5974be1f6705733100c2e9be73c5372c0130",
+    "results/FIGURE_CHECK.json": "42327e71447852b0055703544cf9e121912734ee411f3e77b5c15091eeec926b",
+    "results/PAPER_CHECK.json": "9c1a8eccb13a1132d07ba82a8ee9f35a809d4f2772b158fadab9f253fed7d772"
+  },
+  "criteria": {
+    "rights_privacy_source": {
+      "gate": "PASS",
+      "grade": 4,
+      "evidence": "Official reuse/terms; minimized five-field private capture; complete source reconciliation; public aggregate-only boundary"
+    },
+    "fixed_method_and_separation": {
+      "gate": "PASS",
+      "grade": 4,
+      "evidence": "Twenty frozen dependencies before held analytical outcomes; unchanged quality/cohort/cutoff/endpoint/horizon rules; inputs not blinded"
+    },
+    "arithmetic_and_replay": {
+      "gate": "PASS",
+      "grade": 4,
+      "evidence": "14 fixtures; independent SQLite/integer/90-digit decimal verification of all144settings;97920 exact replay fields/documents"
+    },
+    "figures_and_prose": {
+      "gate": "PASS",
+      "grade": 4,
+      "evidence": "368 plotted values; complete 96-cell held sensitivity grid; executive first layer and qualified practical recommendation"
+    },
+    "manuscript_current_version": {
+      "gate": "PASS",
+      "grade": 4,
+      "evidence": "All8pages rendered and inspected; enlarged page4 table freshly inspected; other7pages pixel-identical after repair;77paper checks;5exact approved files;4PDFactive-content checks;zeroTeXbox/glyphwarnings"
+    },
+    "remote_linux_merge_tag": {
+      "gate": "UNKNOWN",
+      "grade": null,
+      "evidence": "Draft PR; exact candidate/main Linux and merged-tree/annotated-tag verification still required"
+    }
+  },
+  "checks": {
+    "SOURCE_CHECK": "PASS",
+    "INDEPENDENT_SOURCE_CHECK": "PASS",
+    "DEVELOPMENT_INDEPENDENT_CHECK": "PASS",
+    "EVALUATION_INDEPENDENT_CHECK": "PASS",
+    "REPRODUCTION": "PASS",
+    "FIGURE_CHECK": "PASS",
+    "PAPER_CHECK": "PASS"
+  },
+  "retained_failures_and_repairs": [
+    "Round2 page4 table was unnecessarily small; initial TeX/PDF/log and finding retained privately; only that table font changed and seven other pages render identically",
+    "Initial console PDF preview failed on CP1252 ligature encoding; ASCII-safe JSON fixed logging without changing PDF",
+    "Expected unchanged content-stream bytes failed after font-resource renumbering on pages5\u20138; text remained identical, and independent raster comparison proved seven unchanged rendered pages. No scientific criterion was relaxed."
+  ],
+  "material_changes_since_round1": "Eight-page manuscript, numeric/source/qualification/command checks, scoped paper hashes, bounded PDF active-content checks, larger primary table, current README and Linux workflow",
+  "budget": {
+    "max_rounds": 3,
+    "max_active_review_minutes": 45,
+    "max_review_tool_calls": 60,
+    "rounds_used": 3,
+    "workload_proxy": "Protocol/source preparation began about18:46UTC; elapsed wall time to this receipt is an upper bound on active review and includes execution. Review-specific calls remain below60; no agents, judges or schedules. Timing/call proxies are not quota or billing."
+  },
+  "usage_observation": {
+    "source": "Codex get_usage_limits",
+    "observed_utc": "2026-10-29 19:03:09 UTC",
+    "window_minutes": 10080,
+    "used_percent": 86,
+    "remaining_percent": 14,
+    "reset_unix": 1793782197,
+    "ordinary_usage_allowed": true,
+    "secondary": "unavailable",
+    "shared_account_not_task_usage": true
+  },
+  "important_unknowns": [
+    "Historical dashboard values and lifecycle/first-closure/reopening history",
+    "True problem resolution and missing-date meaning",
+    "Independent-censoring/stable closure-distribution assumptions",
+    "Prospective performance, operational benefit and scientific novelty"
+  ],
+  "stop_reason": "Three bounded local review rounds meet scoped acceptance; proceed to ordinary exact-version Linux and release checks without further substantive revision."
+}

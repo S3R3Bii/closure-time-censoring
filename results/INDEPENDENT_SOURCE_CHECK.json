@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "public_aggregate_sha256": "a9d96b17b54deac8d0bfb9683543a7a4568a3dc27e7a9a241fe1dc9e7fffff3c",
+  "public_manifest_sha256": "55beca667aa30a319c64ed5c53cf30fb8709dffbeec6e934bcf5316968c0449c",
+  "selected_field_checks": 1368205,
+  "source_rows": 273641,
+  "aggregate_cells_checked": 9982,
+  "normalized_aggregate_scalar_checks": 69874,
+  "source_panels": 12,
+  "metadata_versions_matched": 2,
+  "methods": "Independentdatetime.strptimeprojection;SQLiteuniqueIDs/counts;completebinmapcomparison;rawandpublichashes",
+  "privacy": "Everypubliccellhasapprovedaggregatekeys only;IDs/exacttimestamps/rawstatusesoutsideGit"
+}

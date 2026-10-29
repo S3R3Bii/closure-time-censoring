@@ -1,0 +1,8 @@
+{
+  "status": "COMPUTED_PENDING_INDEPENDENT_CHECK",
+  "phase": "development",
+  "panels": 4,
+  "settings": 48,
+  "curve_steps": 736,
+  "caveat": "Synthetic cutoffs on later captured records; no historical-vintage or true-resolution claim"
+}
